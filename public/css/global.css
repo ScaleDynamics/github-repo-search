@@ -1,0 +1,87 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0 0 100px 0;
+  padding: 0;
+  min-width: 320px;
+}
+
+a {
+  color: #456a84;
+}
+
+.header {
+  position: relative;
+  color: #fff;
+  background-color: #242a2d;
+}
+
+.header h1 {
+  margin: 0;
+  padding: 15px 130px;
+  font-size: 35px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.btn-fork-me,
+button {
+  cursor: pointer;
+}
+
+.btn-fork-me {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  display: inline-block;
+  line-height: 20px;
+  margin: 10px 5px;
+  padding: 6px 12px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #4d4d4d;
+  text-decoration: none;
+}
+
+.btn-fork-me:hover {
+  filter: invert(1);
+}
+
+.btn-fork-me .github {
+  fill: #f1f1f1;
+  vertical-align: sub;
+}
+
+@media (max-width: 767.98px) {
+  .header h1 {
+    padding: 15px;
+  }
+
+  .btn-fork-me {
+    display: none;
+  }
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 5px 15px;
+  text-align: center;
+  color: #3d3d3d;
+}
+
+.note {
+  max-width: 70%;
+  margin: 15px auto 30px;
+  font-style: italic;
+  font-weight: lighter;
+}
