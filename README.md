@@ -4,7 +4,10 @@ Search on GitHub the most starred repositories that use JavaScript and TypeScrip
 
 ## Try it
 
-See [live demo](https://warpjs-ctweqxljao20sm7xt3mbv7vst.storage.googleapis.com/index.html)
+👉 See [live demo](https://warpjs-ctweqxljao20sm7xt3mbv7vst.storage.googleapis.com/index.html)
+
+![screenshot](https://user-images.githubusercontent.com/54806942/75553607-04e56680-5a39-11ea-8ed7-809a2b8accb6.png)
+
 
 ## Stack
  - [Vue.js](https://vuejs.org/)
