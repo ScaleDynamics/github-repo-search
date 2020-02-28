@@ -2,6 +2,10 @@
 
 Search on GitHub the most starred repositories that use JavaScript and TypeScript, and add the weekly download counts for each package from npmjs.org
 
+## Try it
+
+See [live demo](https://warpjs-ctweqxljao20sm7xt3mbv7vst.storage.googleapis.com/index.html)
+
 ## Stack
  - [Vue.js](https://vuejs.org/)
  - [Axios](https://github.com/axios/axios)
