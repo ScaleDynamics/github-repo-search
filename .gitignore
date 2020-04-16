@@ -2,6 +2,4 @@ node_modules/
 .warp/
 dist/
 
-.env
-
 .DS_Store

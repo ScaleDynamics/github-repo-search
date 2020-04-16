@@ -5,12 +5,11 @@
 
 'use strict';
 
-import App from './app.vue';
-import engine from '@warpjs/engine';
-import Vue from 'vue';
-
 // init WarpJS
-engine.init();
+import '@warpjs/engine';
+
+import Vue from 'vue';
+import App from './app.vue';
 
 // init Vue.js
 new Vue({
