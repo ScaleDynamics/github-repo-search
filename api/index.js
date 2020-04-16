@@ -5,8 +5,7 @@
 
 'use strict';
 
-// import WarpJS
-import { defaultWarper as warper } from '@warpjs/warp';
+const axios = require('axios');
 
 // GitHub auth token
 const GITHUB_ACCESS_TOKEN = 'YOUR_API_TOKEN';
@@ -21,11 +20,6 @@ const LIMIT_PER_PAGE = 10;
  * @param {number} page
  */
 const search = async (query, page = 1) => {
-  // WarpJS directive
-  'warp +server -client';
-
-  const axios = require('axios');
-
   // search the most starred JavaScript or TypeScript repositories on GitHub API
   const uri = `https://api.github.com/search/repositories?q=${query}+language:javascript+language:typescript&sort=stars&order=desc&page=${page}&per_page=${LIMIT_PER_PAGE}`;
   const headers = {
@@ -98,7 +92,4 @@ const search = async (query, page = 1) => {
   };
 };
 
-export default {
-  // export search as WarpJS function
-  search: (query, page = undefined) => warper.call(search, query, page)
-};
+module.exports = { search };

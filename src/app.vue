@@ -45,7 +45,6 @@
           </div>
         </li>
       </ul>
-      <!-- <em class="timing" v-if="timing && !error">Request executed in {{ formatNumber(timing) }} ms</em> -->
     </div>
   </div>
 </template>
@@ -53,7 +52,7 @@
 <script>
 import { formatDistanceToNow } from 'date-fns';
 
-import api from './api';
+import api from 'github-repo-search-api';
 
 export default {
   data: () => ({
@@ -61,7 +60,6 @@ export default {
     loading: false,
     search: null,
     repositories: null,
-    timing: null,
     total: null
   }),
   mounted() {
@@ -88,12 +86,10 @@ export default {
 
       this.clear();
       this.loading = true;
-      const startTime = new Date();
 
       // fetch api with warp
       const { repositories, total, error } = await api.search(this.search);
 
-      this.timing = new Date() - startTime;
       this.error = error;
       this.repositories = repositories;
       this.total = total;
@@ -106,7 +102,6 @@ export default {
       this.loading = false;
       this.repositories = null;
       this.total = null;
-      this.timing = null;
     }
   }
 };
@@ -165,10 +160,5 @@ li {
 }
 .details div {
   margin-bottom: 10px;
-}
-.timing {
-  display: inline-block;
-  margin-top: 25px;
-  font-weight: lighter;
 }
 </style>

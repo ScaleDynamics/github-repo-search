@@ -1,0 +1,9 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "license2": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
