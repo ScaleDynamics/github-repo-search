@@ -51,9 +51,9 @@ $ npx warp login
 
 #### WarpJS
 
-- Go to the [WarpJS Console](https://starbase.warpjs.com)
+- Go to your [WarpJS Console](https://starbase.warpjs.com)
 - Create a new project
-- Update the `project` name in the `warp.config.js` file
+- Update the `project` name in the `api/warp.config.js` file
 
 ## Run
 
