@@ -13,7 +13,7 @@
     "postinstall": "cd api/ && npm install"
   },
   "dependencies": {
-    "@warpjs/engine": "^3.0.0",
+    "@warpjs/engine": "^3.0.2",
     "date-fns": "^2.12.0",
     "vue": "^2.6.11"
   },
@@ -27,7 +27,7 @@
     "vue-loader": "^15.9.1",
     "vue-style-loader": "^4.1.2",
     "vue-template-compiler": "^2.6.11",
-    "warp": "^3.0.0",
+    "warp": "^3.0.2",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"

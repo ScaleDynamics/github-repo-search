@@ -3,6 +3,6 @@ module.exports = {
   output: {
     format: 'node-module',
     name: 'github-repo-search-api',
-    projectPath: '.'
+    projectPath: '..'
   }
 };
