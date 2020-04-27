@@ -13,22 +13,22 @@
     "postinstall": "cd api/ && npm install"
   },
   "dependencies": {
-    "@warpjs/engine": "^3.0.2",
+    "@warpjs/engine": "3.0.5",
     "date-fns": "^2.12.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^5.1.1",
-    "css-loader": "^3.5.2",
+    "css-loader": "^3.5.3",
     "html-webpack-plugin": "^4.2.0",
     "npm-run-all": "^4.1.5",
-    "style-loader": "^1.1.4",
+    "style-loader": "^1.2.0",
     "vue-loader": "^15.9.1",
     "vue-style-loader": "^4.1.2",
     "vue-template-compiler": "^2.6.11",
-    "warp": "^3.0.2",
-    "webpack": "^4.42.1",
+    "warp": "3.0.5",
+    "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
   }
