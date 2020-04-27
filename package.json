@@ -6,7 +6,7 @@
     "build": "run-s build:api build:front",
     "build:api": "warp build api/",
     "build:front": "webpack --progress --mode=production",
-    "deploy": "warp-deploy --asset-dir=dist api/",
+    "deploy": "warp deploy --asset-dir=dist api/",
     "dev": "run-p dev:*",
     "dev:api": "warp start-emulator --watch api/",
     "dev:front": "webpack-dev-server --open",
