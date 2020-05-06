@@ -52,7 +52,9 @@
 <script>
 import { formatDistanceToNow } from 'date-fns';
 
-import api from 'github-repo-search-api';
+// init WarpJS
+import Warp from 'github-repo-search-api';
+const api = new Warp();
 
 export default {
   data: () => ({
