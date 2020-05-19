@@ -14,5 +14,5 @@ import App from './app.vue';
 // init Vue.js
 new Vue({
   el: '#app',
-  render: h => h(App)
+  render: (h) => h(App)
 });

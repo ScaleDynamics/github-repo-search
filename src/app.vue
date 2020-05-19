@@ -97,8 +97,8 @@ export default {
       this.total = total;
       this.loading = false;
     },
-    formatDate: date => `Updated ${formatDistanceToNow(new Date(date))} ago`,
-    formatNumber: number => number && number.toLocaleString('en'),
+    formatDate: (date) => `Updated ${formatDistanceToNow(new Date(date))} ago`,
+    formatNumber: (number) => number && number.toLocaleString('en'),
     clear: function() {
       this.error = null;
       this.loading = false;
