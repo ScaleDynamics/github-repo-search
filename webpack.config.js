@@ -24,7 +24,9 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: 'src/index.html'
     }),
-    new CopyPlugin([{ from: 'public', to: '.' }]),
+    new CopyPlugin({
+      patterns: [{ from: 'public', to: '.' }]
+    }),
     new VueLoaderPlugin()
   ]
 };
