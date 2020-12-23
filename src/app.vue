@@ -1,7 +1,7 @@
 <template>
   <div>
     <form class="form" v-on:submit.prevent="searchRepository()">
-      <input type="search" v-model.trim="search" placeholder='search by name, i.e "proxy"' required /><!--
+      <input ref="search" type="search" v-model.trim="search" placeholder='search by name, i.e "proxy"' required /><!--
         --><button :disabled="loading" title="Search">
         <svg
           class=""
@@ -65,6 +65,8 @@ export default {
     total: null
   }),
   mounted() {
+    // set focus
+    this.$refs.search.focus();
     // get search from query param
     const urlParams = new URLSearchParams(window.location.search);
     const search = urlParams.get('q');
