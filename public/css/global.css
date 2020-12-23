@@ -80,8 +80,10 @@ button {
 }
 
 .note {
-  max-width: 70%;
-  margin: 15px auto 30px;
-  font-style: italic;
+  max-width: 700px;
+  margin: 30px auto 50px;
+  padding: 25px;
   font-weight: lighter;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
 }
