@@ -13,7 +13,7 @@ Search on GitHub the most starred repositories that use JavaScript and TypeScrip
 - [Vue.js](https://vuejs.org/)
 - [Axios](https://github.com/axios/axios)
 - [Webpack](https://webpack.js.org/)
-- [WarpJS](https://warpjs.com/)
+- [WarpJS SDK](https://scaledynamics.com/product)
 - [GitHub API](https://developer.github.com/v3/)
 - [NpmJS API](https://github.com/npm/registry/blob/master/docs/download-counts.md)
 
@@ -22,38 +22,29 @@ Search on GitHub the most starred repositories that use JavaScript and TypeScrip
 ### Install
 
 ```bash
-$ git clone https://github.com/WarpJS/github-repo-search.git
+$ git clone https://github.com/ScaleDynamics/github-repo-search.git
 $ cd github-repo-search
 $ npm install
 ```
 
-## Login to WarpJS
+### Login to ScaleDynamics
 
-Run the following command once to authenticate to your WarpJS account:
+Run the following command once to authenticate to your [ScaleDynamics account](https://console.scaledynamics.com/) with the [WarpJS CLI](https://docs.scaledynamics.com/docs/api/cli):
 
 ```bash
 $ npx warp login
 ```
 
-### Config
+### Configure your GitHub API token
 
-#### GitHub API Token
+Generate a new token:
+  - go to https://github.com/settings/tokens/new
+  - enable at least the `public_repo` scope
+  - generate token
 
-- Generate a new token:
-
-  - Go to https://github.com/settings/tokens/new
-  - Check only scope `public_repo`
-  - Generate token
-
-- Save your token:
+Save your token:
   - open the `api/index.js` file
   - replace the `'YOUR_API_TOKEN'` with yours
-
-#### WarpJS
-
-- Go to your [WarpJS Console](https://starbase.warpjs.com)
-- Create a new project
-- Update the `project` name in the `api/warp.config.js` file
 
 ## Run
 
