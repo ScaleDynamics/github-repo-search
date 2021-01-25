@@ -14,7 +14,7 @@
     "postinstall": "cd api/ && npm install"
   },
   "dependencies": {
-    "@warpjs/engine": "^4.0.4",
+    "@warpjs/engine": "^4.0.5",
     "date-fns": "^2.16.1",
     "vue": "^2.6.12"
   },
@@ -28,9 +28,9 @@
     "vue-loader": "^15.9.6",
     "vue-style-loader": "^4.1.2",
     "vue-template-compiler": "^2.6.12",
-    "warp": "^4.0.4",
+    "warp": "^4.0.5",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.1"
+    "webpack-dev-server": "^3.11.2"
   }
 }
