@@ -13,7 +13,7 @@ Search on GitHub the most starred repositories that use JavaScript and TypeScrip
 - [Vue.js](https://vuejs.org/)
 - [Axios](https://github.com/axios/axios)
 - [Webpack](https://webpack.js.org/)
-- [WarpJS SDK](https://scaledynamics.com/product)
+- [ScaleDynamics SDK](https://docs.scaledynamics.com/)
 - [GitHub API](https://developer.github.com/v3/)
 - [NpmJS API](https://github.com/npm/registry/blob/master/docs/download-counts.md)
 
@@ -29,7 +29,7 @@ $ npm install
 
 ### Login to ScaleDynamics
 
-Run the following command once to authenticate to your [ScaleDynamics account](https://console.scaledynamics.com/) with the [WarpJS CLI](https://docs.scaledynamics.com/docs/api/cli):
+Run the following command once to authenticate to your [ScaleDynamics account](https://console.scaledynamics.com/) with the [warp CLI](https://docs.scaledynamics.com/docs/api/cli):
 
 ```bash
 $ npx warp login
